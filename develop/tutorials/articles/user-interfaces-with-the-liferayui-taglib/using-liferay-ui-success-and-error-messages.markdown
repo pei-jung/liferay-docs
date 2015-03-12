@@ -163,3 +163,9 @@ Your portlet users will be glad to get helpful feedback from your portlets.
 
 [User Interfaces with AlloyUI](/develop/tutorials/-/knowledge_base/6-2/alloyui)
 
+## Showing default warning message ##
+
+Add the warning message you want to display with the key `warning`.
+
+        SessionErrors.add(request, "warning", "your-warning-message");
+        
